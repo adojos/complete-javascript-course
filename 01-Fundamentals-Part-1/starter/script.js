@@ -95,3 +95,26 @@
 
 // const averageAge = (ageJonas + ageSarah) / 2;
 // console.log(ageJonas, ageSarah, averageAge);
+
+const firstName = "Tushar";
+const job = "Engineer";
+const birthYear = 1979;
+const year = 2023;
+
+const tushar =
+  "I'am " + firstName + " a " + (year - birthYear) + " years old " + job;
+console.log(tushar);
+
+const newTushar = `I'am ${firstName} a ${year - birthYear} years old ${job}`;
+console.log(newTushar);
+
+const age = 12;
+isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log(`Yes! You can apply for Driving License`);
+} else {
+  console.log(
+    `Sorry! You still have to wait $(age - 18) years before you can apply for Driving License`
+  );
+}
